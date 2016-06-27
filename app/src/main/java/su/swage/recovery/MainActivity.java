@@ -21,7 +21,7 @@ public class MainActivity extends MainListener {
     protected void onCreate(Bundle savedInstanceState) {
         LayoutInflaterCompat.setFactory(getLayoutInflater(), new IconicsLayoutInflater(getDelegate()));
         super.onCreate(savedInstanceState);
-
+        //test git
         SharedPreferences sharedPref = getPreferences(Context.MODE_PRIVATE);
         final SharedPreferences.Editor editor = sharedPref.edit();
 
