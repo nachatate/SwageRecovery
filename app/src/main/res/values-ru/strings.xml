@@ -1,0 +1,103 @@
+<resources>
+    <string name="app_name">Swage Recovery</string>
+    <string name="title_activity_welcome">Swage Recovery</string>
+
+    <string name="drawer_item_home">Главная</string>
+    <string name="drawer_item_sign_out">Выход</string>
+    <string name="drawer_item_buy">Покупка места</string>
+    <string name="drawer_item_ping">Доступность сервиса</string>
+
+    <string name="menuList_noitems">Увы, но тут нечего восстанавливать.\nПопробуйте создать новую копию, нажав на плюсик внизу.</string>
+
+    <string name="toast_deleted">Удалено!</string>
+    <string name="toast_login_credentials">Пожалуйста, введите данные!</string>
+    <string name="toast_login_credentials2">Данные могут содержать только буквы английского алфавита и цифры.</string>
+
+    <string name="hint_email">EMail</string>
+    <string name="hint_password">Пароль</string>
+    <string name="hint_name">Имя</string>
+    <string name="btn_login">Логин</string>
+    <string name="btn_register">Регистрация</string>
+    <string name="btn_link_to_register">Еще не пользовались? Зарегистрируйтесь!</string>
+    <string name="btn_link_to_login">Уже зарегистрированы? Авторизуйтесь!</string>
+
+    <string name="backup_auto">Автоматическая копия</string>
+    <string name="backup_manual">Ручная копия</string>
+
+    <string name="slide1_title">Swage Recovery</string>
+    <string name="slide1_text">Многофункциональная программа для создания резервных копий Вашего устройства</string>
+    <string name="slide2_title">Копирование контактов</string>
+    <string name="slide2_text">Мы создаем копию всех Ваших контактов, не беспокойтесь, они будут надежно сохранены</string>
+    <string name="slide3_title">Копирование сообщений</string>
+    <string name="slide3_text">Копирование Ваших сообщений безопасно сохранит их до следующего восстановления</string>
+
+    <string name="progress_spin_text">Ожидаем…</string>
+    <string name="progress_uploading_text">Загружаем…</string>
+    <string name="progress_uploaded_text">Готово</string>
+    <string name="progress_login">Авторизовываемся…</string>
+    <string name="progress_registering">Регистрируемся…</string>
+
+    <string name="killapps_title">Подготовка к началу</string>
+    <string name="killapps_text">Закрываем остальные приложения на Вашем устройстве, чтобы безопасно начать архивацию данных</string>
+    <string name="smsexport_title">Архивация сообщений</string>
+    <string name="smsexport_text">Сохраняем копии Ваших СМС-сообщений с устройства в архив</string>
+    <string name="contactsexport_title">Архивация контактов</string>
+    <string name="contactsexport_text">Сохраняем копии Ваших контактов с устройства в архив</string>
+    <string name="calllogsexport_title">Архивация журнала звонков</string>
+    <string name="calllogsexport_text">Сохраняем копии Вашего журнала звонков с устройства в архив</string>
+    <string name="uploadserver_title">Загрузка данных</string>
+    <string name="uploadserver_text">Загружаем Ваши данные в защищенное место нашего облака</string>
+
+    <string name="smsimport_title">Восстановление сообщений</string>
+    <string name="smsimport_text">Восстанавливаем копии Ваших СМС-сообщений из архива в устройство</string>
+    <string name="contactsimport_title">Восстановление контактов</string>
+    <string name="contactsimport_text">Восстанавливаем копии Ваших контактов из архива в устройство</string>
+    <string name="calllogsimport_title">Восстановление журнала звонков</string>
+    <string name="calllogsimport_text">Восстанавливаем копии Вашего журнала звонков из архива в устройство</string>
+    <string name="downloadserver_title">Загрузка данных</string>
+    <string name="downloadserver_text">Загружаем Ваши данные из нашего хранилища в Ваше устройство</string>
+
+    <string name="dialog_killapps_head">Закрыть приложения</string>
+    <string name="dialog_killapps_text">Для продолжения и начала операции резервного копирования следует закрыть все конфликтующие приложения, чтобы исключить возможную потерю данных. Вы готовы?"</string>
+    <string name="dialog_killapps_ok">Продолжить</string>
+    <string name="dialog_killapps_cancel">Отменить</string>
+
+    <string name="dialog_gorecovery_head">Восстановить копию</string>
+    <string name="dialog_gorecovery_text">Для продолжения и начала операции восстановления резервной копии нажмите Продолжить, либо Отменить</string>
+    <string name="dialog_gorecovery_ok">Продолжить</string>
+    <string name="dialog_gorecovery_cancel">Отменить</string>
+
+    <string name="dialog_deletebackup_head">Удалить копию</string>
+    <string name="dialog_deletebackup_text">Для продолжения и начала операции удаления резервной копии нажмите Продолжить, либо Отменить</string>
+    <string name="dialog_deletebackup_ok">Продолжить</string>
+    <string name="dialog_deletebackup_cancel">Отменить</string>
+
+    <string name="dialog_loginincorrect_head">Неверные данные</string>
+    <string name="dialog_loginincorrect_text">Судя по всему, Вы ввели неверные данные к своему аккаунту.\nПопробуйте еще раз.</string>
+    <string name="dialog_loginincorrect_ok">Продолжить</string>
+
+    <string name="dialog_networkerror_head">Ошибка соединения</string>
+    <string name="dialog_networkerror_text">Произошла ошибка соединения с сервером. Эта ошибка могла быть вызвана несколькими факторами, например, отсутсвием соединения с сетью Интернет, либо проблемами на сервере.</string>
+    <string name="dialog_networkerror_ok">Продолжить</string>
+
+    <string name="pin_code_forgot_text">Забыли?</string>
+    <string name="pin_code_step_disable">Отключить %d-зн. пинкод</string>
+    <string name="pin_code_step_create">Создайте %d-зн. пинкод</string>
+    <string name="pin_code_step_change">Введите текущий %d-зн. пинкод</string>
+    <string name="pin_code_step_unlock">Введите Ваш %d-зн. пинкод</string>
+    <string name="pin_code_step_enable_confirm">Подтвердите Ваш %d-зн. пинкод</string>
+
+    <string name="pin_code_fingerprint_text">Отпечаток пальца</string>
+    <string name="pin_code_fingerprint_success">Отпечаток распознан</string>
+    <string name="pin_code_fingerprint_not_recognized">Отпечаток не распознан</string>
+
+    #Перевод многих элементов дизайна для людей с ограниченными возможностями
+
+    <string name="talkback_iclauncher">Логотип приложения</string>
+    <string name="talkback_fingerprint">Доступен вход через отпечаток пальца</string>
+    <string name="talkback_computer">Картинка приветствия</string>
+    <string name="talkback_contacts">Резервная копия контактов</string>
+    <string name="talkback_messages">Резервная копия сообщений</string>
+    <string name="talkback_trash">Удаление резервной копии</string>
+
+</resources>

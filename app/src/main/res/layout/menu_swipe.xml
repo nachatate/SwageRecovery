@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<com.daimajia.swipe.SwipeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/swipe"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="80dp"
+        android:layout_height="72dp"
+        android:background="#333"
+        android:gravity="center"
+        android:tag="Bottom2">
+
+        <ImageView
+            android:id="@+id/trash"
+            android:layout_width="22dp"
+            android:layout_height="22dp"
+            android:contentDescription="@string/talkback_trash"
+            android:src="@drawable/trash" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="72dp"
+            android:padding="16dp">
+
+            <ImageView
+                android:id="@+id/backup_img"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@+id/backup_date"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginRight="16dp"
+                android:contentDescription=""
+                android:src="@drawable/ic_settings_backup_restore_black_48dp" />
+
+            <TextView
+                android:id="@+id/backup_id"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/backup_img"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/backup_date"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/backup_id"
+                android:layout_toEndOf="@+id/backup_img"
+                android:textSize="14sp" />
+        </RelativeLayout>
+    </LinearLayout>
+</com.daimajia.swipe.SwipeLayout>

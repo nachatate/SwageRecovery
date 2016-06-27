@@ -1,0 +1,97 @@
+<resources>
+    <string name="app_name">Swage Recovery</string>
+    <string name="title_activity_welcome">Swage Recovery</string>
+
+    <string name="drawer_item_home">Home</string>
+    <string name="drawer_item_sign_out">Exit</string>
+    <string name="drawer_item_buy">Purchase space</string>
+    <string name="drawer_item_ping">Service status</string>
+
+    <string name="menuList_noitems">Alas, there is nothing to restore.\nTry to create a new copy by clicking on the plus sign at the bottom.</string>
+
+    <string name="toast_deleted">Deleted!</string>
+    <string name="toast_login_credentials2">The data can only contain letters of the English alphabet and numbers.</string>
+    <string name="toast_login_credentials">Please, enter data!</string>
+
+    <string name="hint_email">EMail</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_name">Name</string>
+    <string name="btn_login">Login</string>
+    <string name="btn_register">Registration</string>
+    <string name="btn_link_to_register">Not yet used? Sign up!</string>
+    <string name="btn_link_to_login">Already registered? Log in!</string>
+
+    <string name="backup_auto">Automatic copy</string>
+    <string name="backup_manual">Manual copy</string>
+
+    <string name="slide1_title">Swage Recovery</string>
+    <string name="slide1_text">Multifunction program for creating backups of your device</string>
+    <string name="slide2_title">Copy contacts</string>
+    <string name="slide2_text">We create a copy of all your contacts, do not worry, they will be securely stored</string>
+    <string name="slide3_title">Copy messages</string>
+    <string name="slide3_text">Copies of your messages safely store them until the next recovery</string>
+
+    <string name="progress_spin_text">Expect…</string>
+    <string name="progress_uploading_text">Loading…</string>
+    <string name="progress_uploaded_text">Done</string>
+    <string name="progress_login">Log in…</string>
+    <string name="progress_registering">Registering…</string>
+
+    <string name="killapps_title">Getting ready to start</string>
+    <string name="killapps_text">Close the other applications on your device to safely start archiving data</string>
+    <string name="smsexport_title">Messaging Archiving</string>
+    <string name="smsexport_text">Save a copy of your SMS messages from your device to the archive</string>
+    <string name="contactsexport_title">Back up contacts</string>
+    <string name="contactsexport_text">Save a copy of your contacts from your device to the archive</string>
+    <string name="calllogsexport_title">Backup call log</string>
+    <string name="calllogsexport_text">Save a copy of your call log from the device to the archive</string>
+    <string name="uploadserver_title">Loading data</string>
+    <string name="uploadserver_text">Upload your data to a secure location of our cloud</string>
+
+    <string name="smsimport_title">Restore Messages</string>
+    <string name="smsimport_text">Restore copies of your SMS messages from the archive to the device</string>
+    <string name="contactsimport_title">Contacts Recovery</string>
+    <string name="contactsimport_text">Restore copy your contacts from the archive to the device</string>
+    <string name="calllogsimport_title">Restore call log</string>
+    <string name="calllogsimport_text">Restore the copy of your call log from file to the device</string>
+    <string name="downloadserver_title">Loading data</string>
+    <string name="downloadserver_text">download your data from our store on your device</string>
+
+    <string name="dialog_killapps_head">Close applications</string>
+    <string name="dialog_killapps_text">To continue and start the backup operation should close all the conflicting application to prevent possible loss of data. Are you ready? "</string>
+    <string name="dialog_killapps_ok">Continue</string>
+    <string name="dialog_killapps_cancel">Cancel</string>
+    <string name="dialog_gorecovery_head">Restore copy</string>
+    <string name="dialog_gorecovery_text">To continue and start the recovery operation backup, click Continue, or Cancel</string>
+    <string name="dialog_gorecovery_ok">Continue</string>
+    <string name="dialog_gorecovery_cancel">Cancel</string>
+    <string name="dialog_deletebackup_head">Delete copy</string>
+    <string name="dialog_deletebackup_text">To continue and start operation remove the backup, click Continue, or Cancel</string>
+    <string name="dialog_deletebackup_ok">Continue</string>
+    <string name="dialog_deletebackup_cancel">Cancel</string>
+    <string name="dialog_loginincorrect_head">Incorrect data</string>
+    <string name="dialog_loginincorrect_text">Apparently, you have entered incorrect data to your account.\nTry again,</string>
+    <string name="dialog_loginincorrect_ok">Continue</string>
+    <string name="dialog_networkerror_head">Connection error</string>
+    <string name="dialog_networkerror_text">There was a communication error with the server. This error could be caused by several factors, such as lack of Internet connection, any problems on the server.</string>
+    <string name="dialog_networkerror_ok">Continue</string>
+
+    <string name="pin_code_forgot_text">Forgot?</string>
+    <string name="pin_code_step_disable">Disable %d-digit pincode</string>
+    <string name="pin_code_step_create">Create a %d-digit pincode</string>
+    <string name="pin_code_step_change">Enter the current %d-digit pincode</string>
+    <string name="pin_code_step_unlock">Enter Your %d-digit pincode</string>
+    <string name="pin_code_step_enable_confirm">Confirm Your %d-digit pincode</string>
+    <string name="pin_code_fingerprint_text">Fingerprint</string>
+    <string name="pin_code_fingerprint_success">Fingerprint recognized</string>
+    <string name="pin_code_fingerprint_not_recognized">The print is not recognized</string>
+
+    #Translation of many design elements for people with disabilities
+
+    <string name="talkback_iclauncher">Application logo</string>
+    <string name="talkback_fingerprint">Available input through a fingerprint</string>
+    <string name="talkback_computer">Welcome picture</string>
+    <string name="talkback_contacts">Сontacts backup</string>
+    <string name="talkback_messages">Messages backup</string>
+    <string name="talkback_trash">Remove a backup</string>
+</resources>
