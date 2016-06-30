@@ -22,6 +22,8 @@
         android:layout_height="match_parent"
         android:layout_below="@id/toolbar">
 
+        <!-- Попробуй использовать не FrameLayout, а что-нибудь другое -->
+
         <FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
             xmlns:tools="http://schemas.android.com/tools"
             android:layout_width="match_parent"
@@ -53,6 +55,8 @@
                     android:textSize="16dp"
                     android:textStyle="bold" />
             </ScrollView>
+
+            <!-- FloatingActionButton лучше переместить в основной RelativeLayout -->
 
             <android.support.design.widget.FloatingActionButton
                 android:layout_width="wrap_content"

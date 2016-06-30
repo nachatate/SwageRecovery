@@ -5,8 +5,6 @@ import android.content.Intent;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.support.v7.app.AlertDialog;
 import android.support.v7.app.AppCompatActivity;
-import android.view.Menu;
-import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ListView;
@@ -39,18 +37,6 @@ public class MainListener extends AppCompatActivity implements InterfaceAPI, Swi
     public SwipeRefreshLayout mSwipeRefreshLayout;
     protected SwipeActionAdapter mAdapter;
     private List<Map<String, String>> listViewItems;
-
-    @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        getMenuInflater().inflate(R.menu.main, menu);
-        return true;
-    }
-
-    @Override
-    public boolean onOptionsItemSelected(MenuItem item) {
-        int id = item.getItemId();
-        return id == R.id.action_settings || super.onOptionsItemSelected(item);
-    }
 
     @Override
     public Void onSuccessResponseAPI(JSONObject result) {

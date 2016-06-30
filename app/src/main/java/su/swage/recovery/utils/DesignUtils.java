@@ -79,9 +79,9 @@ public class DesignUtils {
     }
 
     public static void InitSwipeRefresh(MainActivity mainActivity) {
-        SwipeRefreshLayout mSwipeRefreshLayout = (SwipeRefreshLayout) mainActivity.findViewById(R.id.swipe_container);
-        mSwipeRefreshLayout.setOnRefreshListener(mainActivity);
-        mSwipeRefreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright,
+        mainActivity.mSwipeRefreshLayout = (SwipeRefreshLayout) mainActivity.findViewById(R.id.swipe_container);
+        mainActivity.mSwipeRefreshLayout.setOnRefreshListener(mainActivity);
+        mainActivity.mSwipeRefreshLayout.setColorSchemeResources(android.R.color.holo_blue_bright,
                 android.R.color.holo_green_light,
                 android.R.color.holo_orange_light,
                 android.R.color.holo_red_light);

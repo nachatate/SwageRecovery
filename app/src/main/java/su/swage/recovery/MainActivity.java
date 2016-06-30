@@ -32,8 +32,8 @@ public class MainActivity extends MainListener {
             } else {
                 setContentView(R.layout.activity_main);
 
-                DesignUtils.InitLockScreen(this, sharedPref, editor);
                 DesignUtils.InitSwipeRefresh(this);
+                DesignUtils.InitLockScreen(this, sharedPref, editor);
                 DesignUtils.InitNavDrawMenu(this);
 
                 ReloadList();
